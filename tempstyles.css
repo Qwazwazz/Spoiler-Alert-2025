@@ -1,0 +1,215 @@
+/* General Header Styles */
+header {
+    text-align: center;
+    background-color: white;
+    margin: auto;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    padding: 10px 0;
+    border-bottom: 1px solid #ccc; /* Subtle bottom border */
+    z-index: 9999;
+}
+
+/* Navigation Styling */
+nav {
+    display: flex;
+    justify-content: center;  /* Centers the nav menu */
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;  /* Center the navigation links */
+    padding-left: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 20px;
+    margin-left: 0px;
+    text-decoration: none;
+    text-align: center;
+}
+
+a:link, a:visited {
+    text-decoration: none;
+    color: darkred;
+}
+
+a:hover {
+    text-decoration: none;
+    color: grey;
+}
+
+a:active {
+    color: darkred;
+}
+
+/* Forms Container Styling (Search, Login, Upload) */
+header > .forms-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px; /* Space between forms */
+    margin-top: 10px;
+}
+
+/* Search Form Styling */
+.search-form {
+    display: flex;
+    align-items: center;
+}
+
+.search-form input[type="text"] {
+    padding: 6px 12px;
+    font-size: 14px;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+    margin-right: 8px;
+    width: 200px;
+    transition: border-color 0.3s ease;
+}
+
+.search-form input[type="text"]:focus {
+    border-color: darkred;
+    outline: none;
+}
+
+.search-form button {
+    padding: 6px 12px;
+    font-size: 14px;
+    background-color: darkred;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.search-form button:hover {
+    background-color: grey;
+}
+
+/* Login Form Styling */
+.login-form {
+    display: flex;
+    align-items: center;
+}
+
+.login-form input {
+    padding: 6px 12px;
+    font-size: 14px;
+    margin-right: 8px;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+    transition: border-color 0.3s ease;
+}
+
+.login-form input:focus {
+    border-color: darkred;
+    outline: none;
+}
+
+.login-form button {
+    padding: 6px 12px;
+    font-size: 14px;
+    background-color: darkred;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.login-form button:hover {
+    background-color: grey;
+}
+
+/* Upload Form Styling */
+.upload-form {
+    display: flex;
+    align-items: center;
+}
+
+.upload-form input[type="file"] {
+    padding: 6px 12px;
+    font-size: 14px;
+    margin-right: 8px;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+}
+
+.upload-form button {
+    padding: 6px 12px;
+    font-size: 14px;
+    background-color: darkred;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.upload-form button:hover {
+    background-color: grey;
+}
+
+/* Body and General Text Styling */
+body {
+    background-color: antiquewhite;
+}
+
+h1 {
+    margin: auto;
+    color: darkred;
+    padding: 15px;
+    margin-left: -15px;
+}
+
+h2 {
+    margin: auto;
+    color: darkred;
+}
+
+p {
+    margin: auto;
+    color: darkred;
+}
+
+/* Center content */
+#content-alignment {
+    float: left;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+}
+
+/* Page container */
+#page-container {
+    position: relative;
+    min-height: 90vh;
+}
+
+#content-wrap {
+    padding-bottom: 2rem;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    height: 2rem;
+    margin-left: 15px;
+    color: darkred;
+    background-color: white;
+    position: sticky;
+    top: 0;
+    border-radius: 10px;
+}
