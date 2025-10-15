@@ -1734,7 +1734,6 @@ input, select, textarea {
 		}
 
 		table th {
-			text-align: left;
 			font-weight: bold;
 			padding: 0.75em 1em 0.75em 1em;
 		}
