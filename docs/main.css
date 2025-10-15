@@ -1730,6 +1730,7 @@ input, select, textarea {
 			}
 
 		table th, table td{
+			text-align: left;
 			border: 1px solid #dddddd;
 			font-weight: bold;
 			padding: 8px;
