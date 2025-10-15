@@ -1729,13 +1729,10 @@ input, select, textarea {
 				border-top: 0;
 			}
 
-		table td {
-			padding: 0.75em 1em 0.75em 1em;
-		}
-
-		table th {
+		table th, table td{
+			border: 1px solid #dddddd;
 			font-weight: bold;
-			padding: 0.75em 1em 0.75em 1em;
+			padding: 8px;
 		}
 
 		table thead {
