@@ -209,10 +209,20 @@ input, select, textarea {
 		max-width: 100%;
 		width: 70em;
 	}
+	
+	.slides-container {
+		margin: 0 auto;
+		max-width: 100%;
+		width: 70em;
+		padding-top: 5%;
+	}
 
 		@media screen and (max-width: 1680px) {
 
 			.container {
+				width: 68em;
+			}
+			.slides-container {
 				width: 68em;
 			}
 
@@ -223,6 +233,9 @@ input, select, textarea {
 			.container {
 				width: calc(100% - 80px);
 			}
+			.slides-container {
+				width: calc(100% - 80px);
+			}
 
 		}
 
@@ -231,12 +244,18 @@ input, select, textarea {
 			.container {
 				width: calc(100% - 100px);
 			}
+			.slides-container {
+				width: calc(100% - 100px);
+			}
 
 		}
 
 		@media screen and (max-width: 736px) {
 
 			.container {
+				width: calc(100% - 40px);
+			}
+			.slides-container {
 				width: calc(100% - 40px);
 			}
 
