@@ -2127,7 +2127,7 @@ input, select, textarea {
 		text-transform: uppercase;
 		background: url("images/banner.jpg");
 		background-size: cover;
-		padding: 10em 0;
+		padding: 5em 0;
 	}
 
 		#banner p {
@@ -2177,7 +2177,7 @@ input, select, textarea {
 		position: relative;
 		overflow: hidden;
 		background: #fff;
-		padding: 6em 0;
+		padding: 3em 0;
 	}
 
 /* Content */
@@ -2294,7 +2294,7 @@ input, select, textarea {
 		/* Header */
 
 			#header > .container {
-				padding: 7em 0 2em 0;
+				padding: 4em 0 2em 0;
 			}
 
 			#header h1 {
