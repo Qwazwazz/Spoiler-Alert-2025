@@ -127,7 +127,7 @@ input, select, textarea {
 
 	h3 {
 		font-size: 1em;
-		letter-spacing: 2px;
+		letter-spacing: 0.5px;
 		margin: 0 0 1.25em 0;
 	}
 
@@ -2132,9 +2132,9 @@ input, select, textarea {
 
 		#banner p {
 			font-weight: 400;
-			font-size: 2em;
+			font-size: 1.25em;
 			line-height: 1.5em;
-			letter-spacing: 4px;
+			letter-spacing: 2px;
 			text-align: center;
 			margin: 0;
 		}
