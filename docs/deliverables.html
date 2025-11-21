@@ -12,6 +12,17 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
     <link rel="stylesheet" href="main.css" />
+    <style>
+        .zoomable {
+            transition: transform 0.3s ease;
+            cursor: pointer;
+        }
+
+        .zoomable:hover {
+            transform: scale(1.25);
+            z-index: 1000;
+        }
+    </style>
 </head>
 <body class = "homepage is-preload">
     <div id = "pagewrapper">
@@ -25,8 +36,9 @@
                     <ul>
                         <li><a href="index.html"><span>Home</span></a></li>
                         <li><a href="team.html"><span>Team</span></a></li>
-                        <li><a href="deliverables.html"><span>Deliverables</span></a></li>
                         <li><a href="presentations.html"><span>Presentations</span></a></li>
+                        <li><a href="deliverables.html"><span>Deliverables</span></a></li>
+                        <li><a href="labs.html"><span>Labs</span></a></li>
                         <li><a href="glossary.html"><span>Glossary</span></a></li>
                         <li><a href="references.html"><span>References</span></a></li>
                     </ul>
@@ -44,6 +56,7 @@
                     </header>
                 </section>
                 <!--Add main page content here-->
+
                 
             </div>
         </section>
