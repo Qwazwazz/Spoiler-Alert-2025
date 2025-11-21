@@ -15,6 +15,8 @@
 <style>
   .deliverable-section {
     margin-bottom: 60px;
+    text-align: center;
+    display: block
   }
 
   .img-row {
@@ -25,14 +27,23 @@
     flex-wrap: wrap;
   }
 
+  .img-large {
+    text-align: center;
+  }
+
+  .img-large img {
+    width: 100%;
+    border-radius: 6px;
+  }
+
   .img-item {
     text-align: center;
-    max-width: 400px;
+    max-width: 650px;
   }
 
   .img-item img {
     width: 100%;
-    border-radius: 8px;
+    border-radius: 6px;
   }
 
   .row-3 .img-item {
@@ -80,27 +91,121 @@
         <!--Main-->
         <section id = "main">
             <div class = "container">
-                <!--Intro-->
-                <section class = "box special">
-                    <header class = "major">
-                        <h2>Deliverables</h2>
-                    </header>
-                </section>
 
                 <!--Flows-->
                 <div class="deliverable-section">
-                <h2>Flows</h2>
-                <div class="img-row">
-                    <div class="img-item">
-                        <h3>Process Flow</h3>
-                        <img src="images/processflow.png" alt="Homepage Left" class="zoomable">
-                    </div>
+                    <h2>Flows</h2>
+                    <div class="img-row">
+                        <div class="img-item">
+                            <h3>Process Flow</h3>
+                            <img src="images/processflow.png" alt="Homepage Left" class="zoomable">
+                        </div>
 
-                    <div class="img-item">
-                        <h3>Solution Flow</h3>
-                        <img src="images/solutionflow.png" alt="Homepage Right" class="zoomable">
+                        <div class="img-item">
+                            <h3>Solution Flow</h3>
+                            <img src="images/solutionflow.png" alt="Homepage Right" class="zoomable">
+                        </div>
                     </div>
                 </div>
+
+                <!--MFCD-->
+                <div class="deliverable-section">
+                    <h2>Major Functional Components Diagram</h2>
+                    <div class="img-row">
+                        <div class="img-large">
+                            <img src="images/MFCD.png" alt="Homepage Left" class="zoomable">
+                        </div>
+                    </div>
+                </div>
+
+                <!--Competition Matrix-->
+                <div class="deliverable-section">
+                    <h2>Competition Matrix</h2>
+                    <div class="img-row">
+                        <div class="img-large">
+                            <img src="images/competitionmatrix.png" alt="Homepage Left" class="zoomable">
+                        </div>
+                    </div>
+                </div>
+
+                <!--Risks-->
+                <div class = "deliverable-section">
+                    <h2>Risk Matrices</h2>
+                    <div class = "img-row">
+                        <div class = "img-item">
+                            <h3>User Risks</h3>
+                            <img src = "images/userrisks.png" alt="Homepage Left" class="zoomable">
+                        </div>
+
+                        <div class = "img-item">
+                            <h3>Technical Risks</h3>
+                            <img src = "images/technicalrisks.png" alt="Homepage Right" class="zoomable">
+                        </div>
+
+                        <div class = "img-item" style = "max-width: 700px;">
+                            <h3>Legal/Security Risks</h3>
+                            <img src = "images/legalsecurityrisks.png" alt="Centered Homepage" class="zoomable">
+                        </div>
+                    </div>
+                </div>
+
+                <!--Feature Table-->
+                <div class = "deliverable-section">
+                    <h2>Feature Table</h2>
+                    <div class = "img-row">
+                        <div class = "img-item">
+                            <h3></h3>
+                            <img src = "images/feature1.png" alt="Homepage Left" class="zoomable">
+                        </div>
+
+                        <div class = "img-item">
+                            <h3></h3>
+                            <img src = "images/feature2.png" alt="Homepage Right" class="zoomable">
+                        </div>
+
+                        <div class = "img-item" style = "max-width: 700px;">
+                            <h3></h3>
+                            <img src = "images/feature3.png" alt="Centered Homepage" class="zoomable">
+                        </div>
+                    </div>
+                </div>
+
+                <!--WBS-->
+                <div class = "deliverable-section">
+                    <h2>Work Breakdown Structures</h2>
+                    <div class = "img-row">
+                        <div class = "img-large">
+                            <h3>Overview</h3>
+                            <img src = "images/wbs1.png" alt="Centered Homepage" class="zoomable">
+                        </div>
+
+                        <div class = "img-item">
+                            <h3>User Interfaces</h3>
+                            <img src = "images/wbs2ui.png" alt="Homepage Left" class="zoomable">
+                        </div>
+
+                        <div class = "img-item">
+                            <h3>External Integrations</h3>
+                            <img src = "images/wbs3external.png" alt="Homepage Right" class="zoomable">
+                        </div>
+
+                        <div class = "img-item">
+                            <h3>Algorithms</h3>
+                            <img src = "images/wbs4algo.png" alt="Homepage Left" class="zoomable">
+                        </div>
+
+                        <div class = "img-item">
+                            <h3>Testing & Quality</h3>
+                            <img src = "images/wbs5testing.png" alt="Homepage Right" class="zoomable">
+                        </div>
+
+                        <div class = "img-item" style = "max-width: 700px;">
+                            <h3>Database</h3>
+                            <img src = "images/wbs6database.png" alt="Centered Homepage" class="zoomable">
+                        </div>
+                    </div>
+                </div>
+
         </section>
 
         <!-- Footer -->
